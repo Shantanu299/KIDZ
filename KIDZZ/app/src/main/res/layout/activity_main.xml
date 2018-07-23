@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.shantanu.kidzz.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteY="268dp"
+        tools:layout_editor_absoluteX="-8dp">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="181sp"
+                android:layout_height="83sp"
+                android:layout_alignLeft="@+id/imageButton3"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/imageButton3"
+                android:layout_marginTop="77dp"
+                android:background="@android:color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/abc" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="181sp"
+                android:layout_height="83sp"
+                android:layout_below="@+id/imageButton2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image123" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="181sp"
+                android:layout_height="83sp"
+                android:layout_alignLeft="@+id/imageButton3"
+                android:layout_alignStart="@+id/imageButton3"
+                android:layout_below="@+id/imageButton3"
+                android:layout_marginTop="17dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/puzzle" />
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="181sp"
+                android:layout_height="83sp"
+                app:srcCompat="@drawable/animal_icon"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/imageButton4"
+                android:layout_alignLeft="@+id/imageButton4"
+                android:layout_alignStart="@+id/imageButton4"
+                android:background="@color/white"
+                android:layout_marginTop="17dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

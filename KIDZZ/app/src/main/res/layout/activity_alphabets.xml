@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shantanu.kidzz.Alphabets">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <fragment
+                android:id="@+id/fragment_alpha"
+                android:name="com.shantanu.kidzz.SecondFragment"
+                android:layout_width="match_parent"
+                android:layout_height="380sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                tools:layout="@layout/fragment_second"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/myHsView_alpha"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fragment_alpha"
+                android:layout_marginTop="17dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="410dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/alpha_a_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="A"
+                        android:textScaleX="5"
+                        android:scaleY="5"/>
+
+                    <Button
+                        android:id="@+id/alpha_b_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="B"
+                        android:textScaleX="5"
+                        android:scaleY="5"/>
+
+                    <Button
+                        android:id="@+id/alpha_c_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="C"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_d_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="D"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_e_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="E"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_f_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="F"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_g_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="G"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_h_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="H"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_i_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="I"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_j_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="J"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_k_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="K"
+                        android:textScaleX="5"
+                        android:scaleY="5"/>
+
+                    <Button
+                        android:id="@+id/alpha_l_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="L"
+                        android:textScaleX="5"
+                        android:scaleY="5"/>
+
+                    <Button
+                        android:id="@+id/alpha_m_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="M"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_n_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="N"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_o_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="O"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_p_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="P"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_q_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="Q"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_r_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="R"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_s_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="S"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_t_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="T"
+                        android:textScaleX="5" />
+                    <Button
+                        android:id="@+id/alpha_u_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="U"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_v_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="V"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_w_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="W"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_x_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="X"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_y_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="Y"
+                        android:textScaleX="5" />
+
+                    <Button
+                        android:id="@+id/alpha_z_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:scaleY="5"
+                        android:text="Z"
+                        android:textScaleX="5" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
