@@ -1,3 +1,1 @@
-# KIDZ-App
-# KIDZ
 # KIDZ
